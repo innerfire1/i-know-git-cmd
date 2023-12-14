@@ -1,0 +1,9 @@
+mkdir task3  Создаем директорию 
+cd task3  Заходим туда
+mkdir logs  Создаем еще одну директорию 
+cd logs  Заходим туда
+touch access.log  Создаем файл в котором будут лежать логи
+vim access.log  Заходим туда и вставляем логи
+grep "denied wrong password" access.log | head -n 5 | sort -r 
+touch result.txt Создаем файл, в котором будут описаны все наши действия
+vim result.txt 
